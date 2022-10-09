@@ -17,7 +17,9 @@ module.exports = {
 	        }
         }
         if (interaction.isButton()){
-            interaction.reply("test")
+            if (interaction.customId === "vote_button")[
+				interaction.reply("test")
+			]
         }
 	},
 };
